@@ -1,9 +1,9 @@
-import aboutMeImg from "../images/aboutme.jpeg";
+// {import aboutMeImg from "../images/aboutme.jpeg";}
 import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
-import resume from "../pages/about/michael-yeates-resume.pdf";
+import resume from "../pages/about/Esha-Resume.pdf";
 
 const AboutMe = ({ name, email, location, availability, brand }) => {
   const [ref, inView] = useInView({
@@ -21,7 +21,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
     setDownloading(true);
     const link = document.createElement("a");
     link.href = resume;
-    link.download = "Michael-Yeates-Resume.pdf";
+    link.download = "Esha-Resume.pdf";
     link.onload = () => {
       link.remove();
       setDownloading(false);
@@ -33,15 +33,15 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
   return (
     <div className="aboutContainer container">
       <div className="row">
-        <motion.div
+        {/* <motion.div
           className="personalImage col-12 col-lg-4"
           ref={ref}
           initial={{ x: "-10vw", opacity: 0 }}
           animate={inView ? { x: 0, opacity: 1 } : { x: "-10vw", opacity: 0 }}
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
-          <img src={aboutMeImg} alt={name} />
-        </motion.div>
+         <img src={aboutMeImg} alt={name} />
+        </motion.div> */}
         <motion.div
           className="personalInfo col-12 col-lg-8"
           ref={ref}
@@ -50,8 +50,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
           <div className="contentContainer">
-            <h4>Nice to meet you</h4>
-            <h5>Frontend Web Developer who creates amazing digital experiences!</h5>
+            <h4>Good to see you here!</h4>
+            <h5>Enthusiastic Designer and Front-end Developer.</h5>
             <div className="contentDescription">
               <p>{brand}</p>
             </div>
@@ -59,7 +59,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
               <div className="row">
                 <div className="col-12 col-md-6 info">
                   <span>Name:</span>
-                  <p>Michael Yeates</p>
+                  <p>{name}</p>
                 </div>
                 <div className="col-12 col-md-6 info">
                   <span>Email:</span>
