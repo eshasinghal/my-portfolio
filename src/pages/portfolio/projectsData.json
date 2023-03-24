@@ -2,8 +2,8 @@
   {
     "title": "Mental Health Asistance App",
     "image": "./projectImages/mental.png",
-    "description": "An application designed to encourage college students to become more transparent about mental health. This was a time-limiting design sprint project meant to be completed within 72 hours. ",
-    "technologies": "Leaflet | jQuery | Bootstrap",
+    "description": "An application designed to encourage college students to become more transparent about mental health. This was a time-limiting design sprint project meant to be completed within 72 hours.",
+    "technologies": "UX Case Study",
     "behance": "https://www.behance.net/gallery/159285509/Mental-Health-Assistance-App-Design-sprint",
     "deployed": "https://www.behance.net/gallery/159285509/Mental-Health-Assistance-App-Design-sprint",
     "bgcolor": "#318d35",
@@ -12,11 +12,20 @@
   {
     "title": "Cookish: A Cooking App",
     "image": "./projectImages/cook.png",
-    "technologies": "jQuery | HTML | CSS",
-    "description": "An application designed to enable people to learn how to cook and teach others how to cook as well",
+    "technologies": "UI/UX Case Study",
+    "description": "An application designed to enable people to learn how to cook and teach others how to cook as well.",
     "behance": "https://www.behance.net/gallery/158548171/Cookish-A-cooking-app-UIUX-Case-Study",
     "deployed": "https://www.behance.net/gallery/158548171/Cookish-A-cooking-app-UIUX-Case-Study",
     "bgcolor": "#f765a3",
     "id": "2"
+  },
+  {
+    "title": "UI CHALLENGES",
+    "image": "./projectImages/cover.png",
+    "description": "6 days UI challenges.",
+    "behance": "https://www.behance.net/gallery/166728873/UI-Challenges",
+    "deployed": "https://www.behance.net/gallery/166728873/UI-Challenges",
+    "bgcolor": "orange",
+    "id": "3"
   }
 ]

@@ -1,6 +1,6 @@
-// {import aboutMeImg from "../images/aboutme.jpeg";}
+import aboutMeImg from "../images/me.png";
 import { motion } from "framer-motion";
-import SocialIcons from "../components/SocialIcons";
+import SocialIcons from "./SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
 import resume from "../pages/about/Esha-Resume.pdf";
@@ -33,25 +33,25 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
   return (
     <div className="aboutContainer container">
       <div className="row">
-        {/* <motion.div
+        <motion.div
           className="personalImage col-12 col-lg-4"
           ref={ref}
           initial={{ x: "-10vw", opacity: 0 }}
           animate={inView ? { x: 0, opacity: 1 } : { x: "-10vw", opacity: 0 }}
-          transition={{ duration: 0.4, ease: "easeInOut" }}
+          transition={{ duration: 0.8, ease: "easeInOut" }}
         >
          <img src={aboutMeImg} alt={name} />
-        </motion.div> */}
+        </motion.div> 
         <motion.div
           className="personalInfo col-12 col-lg-8"
           ref={ref}
           initial={{ x: "10vw", opacity: 0 }}
           animate={inView ? { x: 0, opacity: 1 } : { x: "10vw", opacity: 0 }}
-          transition={{ duration: 0.4, ease: "easeInOut" }}
+          transition={{ duration: 0.8, ease: "easeInOut" }}
         >
           <div className="contentContainer">
             <h4>Good to see you here!</h4>
-            <h5>Enthusiastic Designer and Front-end Developer.</h5>
+            <h5>Aspiring Designer and Software Developer.</h5>
             <div className="contentDescription">
               <p>{brand}</p>
             </div>

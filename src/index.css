@@ -1,13 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Jost:wght@100;200;300;400;500;600&family=Montez&display=swap');
 
-.logo{
-  font-family: "Sacramento";
-}
+
 /* --- VARIABLES --- */
 :root {
   --bg-color: #101010;
-  --hl-color: #6e4468;
+  --hl-color: #76621D;
   --text-color: #f3f3f3;
   --secondary-text-color: #9f9f9f;
   --grey: #9f9f9f76;
@@ -103,6 +100,7 @@ header {
 
 .logo {
   height: 30px;
+  color: wheat;
 }
 
 .links {

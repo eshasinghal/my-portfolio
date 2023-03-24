@@ -28,7 +28,7 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
       variants={variants}
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
-      transition={{ duration: 0.4, ease: "easeInOut" }}
+      transition={{ duration: 0.8, ease: "easeInOut" }}
     >
       <div
         style={{ backgroundColor: color }}

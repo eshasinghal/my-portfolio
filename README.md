@@ -21,7 +21,7 @@
     <br/>
 This portfolio application was built using React and is designed to showcase my projects. It features a dynamic and visually appealing layout. <br/>
       <br/>
-      Built by: Michael Yeates
+      Built by: Esha Singhal
       <br/>
       <br/>
       <a href="https://github.com/mdyeates/my-portfolio"><strong>Explore the docs »</strong></a>

@@ -15,7 +15,7 @@ const Form = () => {
     email: "",
     subject: "",
     message: "",
-    access_key: "4f412a8f-0a11-4ba9-8e37-e12661f36602",
+    access_key: "627ad104-9b5e-4f21-857d-74d016f32287",
   });
 
   const handleChange = (e) => {
@@ -62,7 +62,7 @@ const Form = () => {
       className="contactForm"
       initial={{ x: "-10vw", opacity: 0 }}
       animate={inView ? { x: 0, opacity: 1 } : { x: "-10vw", opacity: 0 }}
-      transition={{ duration: 0.4, ease: "easeInOut" }}
+      transition={{ duration: 0.8, ease: "easeInOut" }}
       onSubmit={handleSubmit}
     >
       <h4 className="contentTitle">Message Me</h4>

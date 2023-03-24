@@ -29,6 +29,8 @@
 .textWrap {
   transition: all 0.9s ease-in-out;
   z-index: 1;
+  margin: 0%;
+  padding: 0%;
 }
 
 .projectLink {
@@ -37,7 +39,8 @@
 
 .imageContainer img {
   height: 12em;
-  margin-top: 25px;
+  /* margin-right: 170px; */
+  /* margin-right: 220px; */
   transition: all 1.3s ease-in-out;
 }
 
@@ -73,7 +76,7 @@
 }
 
 .closeModal {
-  margin-left: 250px;
+  margin-left: 260px;
   margin-top: -20px;
 }
 
@@ -136,7 +139,7 @@
   }
 
   .projectTitle {
-    font-size: 30px;
+    font-size: 28px;
     padding: 10px 0;
   }
 

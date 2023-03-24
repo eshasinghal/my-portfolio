@@ -4,8 +4,8 @@ import AnimatedRoutes from "./components/AnimatedRoutes";
 function App() {
   const personalDetails = {
     name: "Esha Singhal",
-    location: "IIT Roorkee, Uttkakhand",
-    tagline: "I'm an aspiring Designer and Developer.",
+    location: "IIT Roorkee, Uttrakhand",
+    tagline: "I'm an aspiring Designer and Software Developer.",
     email: "eshasinghal0612@gmail.com",
     availability: "Open for work",
     brand:
